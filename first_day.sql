@@ -21,6 +21,12 @@ select count(first_name) from actor;
 
 select count(distinct first_name) from actor;
 
+select distinct district from address;
 
+select distinct rental_date from rental order by rental_date desc limit 1;
+
+select count(*) from film;
+
+select count(distinct last_name) from customer;
 
  
